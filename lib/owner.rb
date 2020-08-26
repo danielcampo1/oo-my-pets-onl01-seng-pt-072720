@@ -26,7 +26,7 @@ class Owner
       all.clear
     end
     
-    def cat
+    def cats
        Cat.all.select { |cats| cats.owner }
          
   end
